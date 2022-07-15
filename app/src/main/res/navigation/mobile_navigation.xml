@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.cryptonews.main.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_rootFragment"
+            app:destination="@id/rootFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="org.cryptonews.main.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="org.cryptonews.main.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_nav_gallery"
+            app:destination="@id/nav_gallery"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment android:id="@+id/nav_prognose"
+        android:name="org.cryptonews.main.PrognoseFragment"
+        android:label="@string/menu_prognoses">
+        <action
+            android:id="@+id/action_nav_prognose_to_nav_gallery"
+            app:destination="@id/nav_gallery"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="org.cryptonews.main.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="org.cryptonews.main.FavoritesFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_nav_favorites_to_rootFragment"
+            app:destination="@id/rootFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rootFragment"
+        android:name="org.cryptonews.main.RootFragment"
+        android:label="RootFragment" />
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="org.cryptonews.main.TermsFragment"
+        android:label="@string/terms"
+        tools:layout="@layout/fragment_terms" />
+</navigation>

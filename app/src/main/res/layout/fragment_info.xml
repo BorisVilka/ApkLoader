@@ -1,0 +1,108 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="org.cryptonews.main.network.Coin"/>
+        <import type="org.cryptonews.main.network.Info"/>
+        <variable
+            name="item"
+            type="org.cryptonews.main.ui.list_utils.ListItem" />
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InfoFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/logo_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/ic_baseline_laptop_mac_24"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/name_symb_info" />
+
+                    <TextView
+                        android:id="@+id/name_symb_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:textColor="?attr/colorOnSecondary"
+                        android:text="@{item.getCoin().getNameAndSymbol()}"
+                        app:layout_constraintStart_toEndOf="@+id/logo_info"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/coint_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="?attr/colorPrimary"
+                        android:text="@{item.getInfo().getCategory()}"
+                        app:layout_constraintStart_toStartOf="@+id/name_symb_info"
+                        app:layout_constraintTop_toBottomOf="@+id/name_symb_info" />
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@{item.getInfo().getDescription()}"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/logo_info"
+                        app:layout_constraintTop_toBottomOf="@+id/coint_type" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                    android:id="@+id/site_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_web_24"
+                    android:gravity="start|center_vertical"
+                    android:backgroundTint="?attr/colorOnPrimary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:drawableTint="?attr/colorPrimary"
+                    android:text="@string/website" />
+
+                <Button
+                    android:id="@+id/reddit_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_chat_24"
+                    android:gravity="start|center_vertical"
+                    android:backgroundTint="?attr/colorOnPrimary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:drawableTint="?attr/colorPrimary"
+                    android:text="Reddit" />
+
+                <Button
+                    android:id="@+id/source_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_code_24"
+                    android:gravity="start|center_vertical"
+                    android:backgroundTint="?attr/colorOnPrimary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:drawableTint="?attr/colorPrimary"
+                    android:text="@string/source_code" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</layout>

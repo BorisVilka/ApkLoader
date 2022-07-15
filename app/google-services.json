@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "840259044761",
+    "firebase_url": "https://loader-5897b-default-rtdb.firebaseio.com",
+    "project_id": "loader-5897b",
+    "storage_bucket": "loader-5897b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840259044761:android:dfddf3a66959785e013f08",
+        "android_client_info": {
+          "package_name": "org.cryptonews.loader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840259044761-jbglrk9un3lgces1p4n91f4fj2dhq298.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5WtpDiDWdiev--CQqJgTXvZiTh_NMCFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840259044761-jbglrk9un3lgces1p4n91f4fj2dhq298.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

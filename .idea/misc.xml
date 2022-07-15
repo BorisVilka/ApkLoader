@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/boris/AndroidStudioProjects/cryptonews/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/cryptonews/app/src/main/res/layout/start_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/cryptonews/app/src/main/res/mipmap-anydpi-v26/icon.xml" value="0.111" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/cryptonews/app/src/main/res/xml/provides_paths.xml" value="0.3378623188405797" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/adminmodule/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/background_post.xml" value="0.32685185185185184" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/checkbox_favorite.xml" value="0.4117948717948718" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/graph_minus.xml" value="0.38981481481481484" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/graph_plus.xml" value="0.4027777777777778" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.4117948717948718" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.4117948717948718" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_straight_24.xml" value="0.387037037037037" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/ic_baseline_tune_24.xml" value="0.4117948717948718" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/side_nav_bar.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/drawable/visible_button.xml" value="0.3592592592592593" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/activity_some.xml" value="0.25" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/content_main.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_blank.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_coin.xml" value="0.5" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_favorites.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_gallery.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_info.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_prognose.xml" value="0.3111413043478261" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_root.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_slideshow.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/fragment_terms.xml" value="0.264945652173913" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/graph.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/item_tag.xml" value="0.75" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/list_item.xml" value="0.5" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/marker.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/nav_header_main.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/percent_dialo_title.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/percent_dialog_title.xml" value="0.264945652173913" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/percent_dialog_view.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/post_item.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/show_dialog_view.xml" value="0.32065217391304346" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/sort_dialog_title.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/sort_dialog_view.xml" value="0.3066123188405797" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/stratey_item.xml" value="0.5" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/layout/term_item.xml" value="0.333786231884058" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/menu/activity_main_drawer.xml" value="0.67" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/menu/empty.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/menu/fragment_favorite_scene" value="0.40208333333333335" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/menu/item.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/menu/main.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/eak13/Desktop/CryptoNews/app/src/main/res/xml/root_preferences.xml" value="0.33" />
+        <entry key="..\:/Users/eak13/Desktop/Projects/CryptoNews/app/src/main/res/layout/fragment_coin.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/eak13/Desktop/Projects/CryptoNews/app/src/main/res/layout/nav_header_main.xml" value="0.28940217391304346" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

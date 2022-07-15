@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name" translatable="false">News about crypto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">devdevlop69@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="format" translatable="false">%.2f</string>
+    <string name="format1" translatable="false">%.0f</string>
+    <string name="format2" translatable="false">%.6f</string>
+    <string name="circulating" translatable="false">CS</string>
+    <string name="capitalization" translatable="false">MC</string>
+    <string name="ads_id" translatable="false">ca-app-pub-1145560904060714/7219361929</string>
+    <string name="banner_id" translatable="false">ca-app-pub-1145560904060714/1876408043</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Новости</string>
+    <string name="menu_slideshow">Обучение</string>
+    <string name="menu_favorites">Обучение</string>
+    <string name="menu_settings">Обучение</string>
+    <string name="menu_prognoses">Обучение</string>
+    <string name="theme">Темы</string>
+    <string name="light_theme">Светлая</string>
+    <string name="dark_theme">Тёмная</string>
+    <string name="language">Язык</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="list_settings">Настройки списка</string>
+    <string name="sort">Сортировка:</string>
+    <string name="market_stat">Краткая рыночная статистика</string>
+    <string name="curse_change">Изменение курса в % за:</string>
+    <string name="website">Сайт</string>
+    <string name="source_code">Исходный код</string>
+    <string name="price">Цена:</string>
+    <string name="market_stats">Рыночная статистика:</string>
+    <string name="total_supply">Общ. предложение</string>
+    <string name="max_supply">Макс. предложение</string>
+    <string name="market_cap_full">Рыночная кап.</string>
+    <string name="market_cap_small">Рын. кап.</string>
+    <string name="main">Основное</string>
+    <string name="info">Информация</string>
+    <string name="perc_1h">% за 1ч.</string>
+    <string name="perc_1d">% за 24ч.</string>
+    <string name="perc_7d">% за 7д.</string>
+    <string name="rang">Ранг</string>
+    <string name="price_dialog">Цена</string>
+    <string name="terms">Термины</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sort_types">
+        <item name="market_cap">market_cap</item>
+        <item name="market_cap">market_cap</item>
+        <item name="price">price</item>
+        <item name="price">price</item>
+        <item name="percent_change_1h">percent_change_1h</item>
+        <item name="percent_change_1h">percent_change_1h</item>
+        <item name="percent_change_24h">percent_change_24h</item>
+        <item name="percent_change_24h">percent_change_24h</item>
+        <item name="percent_change_7d">percent_change_7d</item>
+        <item name="percent_change_7d">percent_change_7d</item>
+    </string-array>
+
+    <string-array name="sort_order">
+        <item name="asc">asc</item>
+        <item name="desc">desc</item>
+    </string-array>
+
+    <string-array name="percent_types">
+        <item>@string/h1</item>
+        <item>@string/d1</item>
+        <item>@string/d7</item>
+    </string-array>
+    <string name="h1">1ч.</string>
+    <string name="d1">1д.</string>
+    <string name="d7">7д.</string>
+    <string name="d30"></string>
+    <string name="y1"></string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+
+    <string-array name="terms_arr">
+        <item>altcoin</item>
+        <item>bitcoin</item>
+        <item>blockchain</item>
+        <item>bulls</item>
+        <item>flats</item>
+        <item>gap</item>
+        <item>dump</item>
+        <item>green</item>
+        <item>inside</item>
+        <item>cryptowallet</item>
+        <item>kits</item>
+        <item>otskok</item>
+        <item>pump</item>
+        <item>hand</item>
+        <item>sliv</item>
+        <item>toTheMoon</item>
+        <item>shitcoin</item>
+    </string-array>
+
+    <string name="altcoin_title"></string>
+    <string name="bitcoin_title"></string>
+    <string name="blockchain_title"></string>
+    <string name="bulls_title"></string>
+    <string name="flats_title"></string>
+    <string name="gap_title"></string>
+    <string name="dump_title"></string>
+    <string name="green_title"></string>
+    <string name="inside_title"></string>
+    <string name="cryptowallet_title"></string>
+    <string name="kits_title"></string>
+    <string name="red_title"></string>
+    <string name="bears_title"></string>
+    <string name="otskok_title"></string>
+    <string name="pump_title"></string>
+    <string name="hand_title"></string>
+    <string name="sliv_title"></string>
+    <string name="toTheMoon_title"></string>
+    <string name="shitcoin_title"></string>
+
+
+    <string name="altcoin"></string>
+    <string name="bitcoin"></string>
+    <string name="blockchain"></string>
+    <string name="bulls"></string>
+    <string name="flats"></string>
+    <string name="gap"></string>
+    <string name="dump"></string>
+    <string name="green"></string>
+    <string name="inside"></string>
+    <string name="cryptowallet"></string>
+    <string name="kits"></string>
+    <string name="red"></string>
+    <string name="bears"></string>
+    <string name="otskok"></string>
+    <string name="pump"></string>
+    <string name="hand"></string>
+    <string name="sliv"></string>
+    <string name="toTheMoon"></string>
+    <string name="shitcoin"></string>
+
+
+    <string name="arbitr"></string>
+    <string name="diapozon"></string>
+    <string name="buy_and_ud"></string>
+    <string name="obr_torg"></string>
+    <string name="scalping"></string>
+    <string name="gold"></string>
+    <string name="sovets"></string>
+
+    <string name="arbitr_title"></string>
+    <string name="diapozon_title"></string>
+    <string name="buy_and_ud_title"></string>
+    <string name="obr_torg_title"></string>
+    <string name="scalping_title"></string>
+    <string name="gold_title"></string>
+    <string name="sovets_title"></string>
+
+    <string name="show_text"></string>
+    <string name="dont_ask_again"></string>
+    <string name="ok"></string>
+</resources>

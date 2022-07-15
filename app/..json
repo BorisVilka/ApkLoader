@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49959696296",
+    "firebase_url": "https://crtypto-control-default-rtdb.firebaseio.com",
+    "project_id": "crtypto-control",
+    "storage_bucket": "crtypto-control.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49959696296:android:cd3294940a23e44cfa8f9d",
+        "android_client_info": {
+          "package_name": "org.cryptonews.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49959696296-e2op7tcgtgm1ov6gg5mbisthl0serq0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9LgW_0JQ-Ru74NYK5z8x3yrSKy1Xt9g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49959696296-e2op7tcgtgm1ov6gg5mbisthl0serq0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

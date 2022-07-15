@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end_fav"
+        motion:constraintSetStart="@id/start_fav"
+        motion:duration="1000">
+        <KeyFrameSet>
+        </KeyFrameSet>
+        <OnSwipe motion:autoCompleteMode="continuousVelocity"
+            motion:touchRegionId="@id/cardView_fav"
+            motion:moveWhenScrollAtTop="true"
+            />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start_fav">
+        <Constraint android:id="@id/cardView_fav"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toBottomOf="parent">
+        </Constraint>
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end_fav">
+        <Constraint android:id="@id/cardView_fav"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            motion:layout_constraintBottom_toBottomOf="parent">
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

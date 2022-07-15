@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/sort_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusedByDefault="true">
+
+            <RadioButton
+                android:id="@+id/rang_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_straight_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/rang" />
+
+            <RadioButton
+                android:id="@+id/rang_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_south_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/rang" />
+
+            <RadioButton
+                android:id="@+id/price_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_straight_24"
+                 android:gravity="start|center_vertical"
+                android:text="@string/price_dialog" />
+
+            <RadioButton
+                android:id="@+id/price_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_south_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/price_dialog" />
+
+            <RadioButton
+                android:id="@+id/perc_1h_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_straight_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/perc_1h" />
+
+            <RadioButton
+                android:id="@+id/perc_1h_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_south_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/perc_1h" />
+
+            <RadioButton
+                android:id="@+id/perc_24h_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_straight_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/perc_1d" />
+
+            <RadioButton
+                android:id="@+id/perc_24h_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_south_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/perc_1d" />
+
+            <RadioButton
+                android:id="@+id/perc_7d_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_straight_24"
+                android:gravity="start|center_vertical"
+                android:text="@string/perc_7d" />
+
+            <RadioButton
+                android:id="@+id/perc_7d_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_south_24"
+                 android:gravity="start|center_vertical"
+                android:text="@string/perc_7d" />
+
+        </RadioGroup>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
